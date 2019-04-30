@@ -1,0 +1,71 @@
+{
+    "NPC definition": {
+        "prefix": "defnpc",
+        "body": [
+            "$1\tscript\t$2\t$3,{",
+            "    $4",
+            "}"
+        ]
+    },
+    "Floating NPC definition": {
+        "prefix": "defnpcfloat",
+        "body": [
+            "-\tscript\t$1\t-1,{",
+            "    $2",
+            "}"
+        ]
+    },
+    "Function definition": {
+        "prefix": "deffunction",
+        "body": [
+            "function\tscript\tF_$1\t{",
+            "    $2",
+            "}"
+        ]
+    },
+    "Warp definition": {
+        "prefix": "defwarp",
+        "body": [
+            "$1,$2,$3,$4\twarp\t$5\t$6,$7,$8,$9,$10"
+        ]
+    },
+    "Shop definition": {
+        "prefix": "defshop",
+        "body": [
+            "$1\t$2shop\t$3\t$4,$5"
+        ]
+    },
+    "Event handler": {
+        "prefix": "On:",
+        "body": [
+            "On$1:",
+            "    $2",
+            "    end;",
+            "$3"
+        ]
+    },
+    "If clause": {
+        "prefix": "if",
+        "body": [
+            "if ($1) {",
+            "    $2",
+            "}"
+        ]
+    },
+    "For loop": {
+        "prefix": "for",
+        "body": [
+            "for ($1; $2; $3) {"
+            "    $4",
+            "}"
+        ]
+    },
+    "While loop": {
+        "prefix": "while",
+        "body": [
+            "while ($1) {",
+            "    $2",
+            "}"
+        ]
+    },
+}

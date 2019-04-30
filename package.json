@@ -1,0 +1,30 @@
+{
+    "name": "athena-language-support",
+    "displayName": "Athena Language Support",
+    "description": "Adds syntax highlighting and code snippets for rAthena-flavoured Athena scripting language",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "athena",
+            "aliases": ["Athena", "athena"],
+            "extensions": [".rascript"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "athena",
+            "scopeName": "source.athena",
+            "path": "./syntaxes/athena.json"
+        }],
+        "snippets": [{
+            "language": "athena",
+            "path": "./snippets/athena.json"
+        }]
+    }
+}
