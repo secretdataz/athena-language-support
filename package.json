@@ -2,6 +2,25 @@
     "name": "athena-language-support",
     "displayName": "Athena Language Support",
     "description": "Adds syntax highlighting and code snippets for rAthena-flavoured Athena scripting language",
+    "publisher": "secretdataz",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/secretdataz/athena-language-support"
+    },
+    "author": {
+        "name": "Jittapan Pleumsumran"
+    },
+    "contributors": [
+        {
+            "name": "JoWei",
+            "url": "https://github.com/JoWei"
+        }
+    ],
+    "license": "MIT",
+    "private": false,
+    "bugs": {
+        "url": "https://github.com/secretdataz/athena-language-support"
+    },
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.33.0"
