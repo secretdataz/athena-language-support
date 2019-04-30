@@ -15,6 +15,11 @@ The following are code snippets provided by Athena Language Support.
 * `On:` event handler snippet
 * `for`, `while`, `do` flow control snippet
 
+## Installation
+
+Visit [the extension's page](https://marketplace.visualstudio.com/items?itemName=secretdataz.athena-language-support) in Visual Studio Marketplace.
+You can also install the extension directly from Visual Studio Code's extension menu.
+
 ## Contributing
 
 Feel free to open issues or PRs. We welcome your contributions, especially efforts to standardize this extension's grammar definition.
