@@ -44,7 +44,7 @@
 			"name": "comment.block.athena"
 		},
 		{
-			"match": "([\"'])(?:(?=(\\\\?))\\2.)*?\\1",
+			"match": "([\"])(?:(?=(\\\\?))\\2.)*?\\1",
 			"name": "string.block.athena"
 		},
 		{
